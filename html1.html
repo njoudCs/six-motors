@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="stt.css">
+    <title>controller</title>
+  </head>
+  <body>
+
+    <div class="top" align="center">
+      <h4>HELLO IN </h4>
+      <h1>Control Panel</h1>
+
+    </div>
+
+    <div class="mainn">
+
+      <form action="index.php" method = "POST" >
+
+
+    <div class="m1">
+
+
+      <div class="controller" style="min-height:100px">
+        <h3>controller 1 </h3><br>
+        <div class="field">
+        <div class="value left">
+0</div>
+      <input type="range" min="12" max="180" value="90" id="myRange1" class="slider"  name="motor1">
+
+
+
+
+
+      <div class="value right">
+200</div>
+
+      </div>
+          <p>Value: <span id = "value1"></span></p>
+      </div>
+
+        <br>
+
+
+
+
+        <div class="controller" style="min-height:100px">
+          <h3>controller 2 </h3><br>
+          <div class="field">
+          <div class="value left">
+  0</div>
+        <input type="range" min="12" max="180" value="90" id="myRange2" class="slider" name="motor2" >
+
+
+
+
+
+        <div class="value right">
+  180</div>
+
+        </div>
+            <p>Value: <span id = "value2"></span></p>
+        </div>
+
+
+    <br>
+
+    <div class="controller" style="min-height:100px">
+      <h3>controller 3 </h3><br>
+      <div class="field">
+      <div class="value left">
+0</div>
+    <input type="range" min="12" max="180" value="90" id="myRange3" class="slider" name="motor3" >
+
+
+
+
+
+    <div class="value right">
+200</div>
+
+    </div>
+        <p>Value: <span id = "value3"></span></p>
+    </div>
+
+  <br>
+
+</div>
+
+<div class="m2">
+
+
+  <div class="controller" style="min-height:100px">
+    <h3>controller 4 </h3><br>
+    <div class="field">
+    <div class="value left">
+0</div>
+  <input type="range" min="12" max="180" value="90" id="myRange4" class="slider"  name="motor4">
+
+
+
+
+
+  <div class="value right">
+200</div>
+
+  </div>
+      <p>Value: <span id = "value4"></span></p>
+  </div>
+  <br>
+
+  <div class="controller" style="min-height:100px">
+    <h3>controller 5 </h3><br>
+    <div class="field">
+    <div class="value left">
+0</div>
+  <input type="range" min="0" max="180" value="90" id="myRange5" class="slider" name="motor5" >
+
+
+
+
+
+  <div class="value right">
+200</div>
+
+  </div>
+      <p>Value: <span id = "value5"></span></p>
+  </div>
+  <br>
+
+  <div class="controller" style="min-height:100px">
+    <h3>controller 6</h3><br>
+    <div class="field">
+    <div class="value left">
+0</div>
+  <input type="range" min="12" max="180" value="90" id="myRange6" class="slider" name="motor6">
+
+
+
+
+
+  <div class="value right">
+200</div>
+
+  </div>
+      <p>Value: <span id = "value6"></span></p>
+  </div>
+
+    </div>
+
+    <div class="ConButton" >
+    <!-- <button class="btn btn1 " type="submit">
+    SAVE
+    </button>
+
+    <button class="btn btn2 " type="submit">
+      Turn On
+    </button>
+    </div>
+    <br>
+    <br> -->
+        <button type="submit" class="btn btn1 "  value = "Save" name = "save"> Save </button>
+       <button type="button"class="btn btn2" value = "ON" name = "on" >Turn on </button>
+</div>
+</form>
+
+    </div>
+  </body>
+
+  <script src="javas.js">
+
+  </script>
+
+
+</html>
